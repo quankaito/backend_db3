@@ -1,0 +1,4 @@
+MONGODB_URI=your_mongodb_connection_string
+PORT=????
+REACT_APP_API_URL=http://localhost:3001
+NODE_ENV=development
