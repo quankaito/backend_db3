@@ -15,7 +15,7 @@ const app = express();
  */
 app.use(
   cors({
-    origin: 'http://localhost:3000', // URL frontend của bạn
+    origin: 'mongodb3.netlify.app', // URL frontend của bạn
     methods: ['GET', 'POST', 'DELETE', 'PUT','SEARCH'], // Thêm các phương thức khác nếu cần
     allowedHeaders: ['Content-Type'],
   })
